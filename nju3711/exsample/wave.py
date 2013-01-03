@@ -7,12 +7,13 @@ sys.path.append('./..')
 from nju3711 import NJU3711
 
 #
-# alternating
+# wave from center to around
 #
-# 1. oxox oxox
-# 2. xoxo xoxo
-# 3. oxox oxox
-# 4. xoxo xoxo
+# 1. xxxx xxxx
+# 2. xxxo oxxx
+# 3. xxoo ooxx
+# 4. xooo ooox
+# 5. oooo oooo
 # ...
 #
 
