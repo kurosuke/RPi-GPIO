@@ -1,5 +1,8 @@
 # sample patterns
 
+##  sample diagram
+![sample dìagram](https://raw.github.com/kurosuke/RPi-GPIO/master/images/nju3711_board.png)
+
 ## alternating
 
     % sudo python alternating.py

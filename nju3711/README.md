@@ -1,7 +1,7 @@
-8bits serial-> parallel converter IC NJU3711 driver
+# 8bits serial-> parallel converter IC NJU3711 driver
 
 
-# NJU3711 pin
+## NJU3711 pin
     +----+----+----+----+----+----+----+
     |Vdd | P2 | P1 |CLR |STB |CLK |DATA|
     +----+----+----+----+----+----+----+
@@ -12,7 +12,7 @@
     | P3 | P4 | P5 |Vss | P6 | P7 | P8 |
     +----+----+----+----+----+----+----+
 
-# sample pins setting
+## sample pins setting
   RPi         |  NJU3711
 --------------|--------------
 GPIO4         | DATA
@@ -22,13 +22,13 @@ GPIO11(SCKL)  | CLR
 GND           | Vss
 5V            | Vdd
  
-# quick demo
+## quick demo
 
     % sudo python nju3177.py 
 
 led on from 1 to 8
 
-# exsample
+## exsample
 
 	% cd exsample
     % sudo python alternating.py
