@@ -1,9 +1,11 @@
 # sample patterns
 
 ## use parts
-led x8
-nju3711 ... 8bits serial-> parallel converter IC 
-registor ... 1K x8
+  part name        |  memo
+-------------------|--------------------------
+led x8             |
+nju3711            | 8bits serial-> parallel converter IC 
+registor           | 1K x8
 
 ##  sample diagram
 ![sample dìagram](https://raw.github.com/kurosuke/RPi-GPIO/master/images/nju3711_board.png)

@@ -1,11 +1,13 @@
 # sample patterns
 
 ## use parts
-LM35DZ ... temperture sensor
-S9648 ... photo diode IC
-LM358 ... dual operation amplifier
-MCP3002 ... A/D conventor(10bits)
-resistor ... 1Kx2, 330x1, 200x1
+  part name        |  memo
+-------------------|--------------------------
+LM35DZ             | temperture sensor
+S9648              | photo diode IC
+LM358              | dual operation amplifier
+MCP3002            | A/D conventor(10bits)
+resistor           | 1Kx2, 330x1, 200x1
 
 
 ## sample diagram
