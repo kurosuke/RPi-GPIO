@@ -13,7 +13,7 @@
     +----+----+----+----+
 
 ## sample pins setting
-  RPi         |  NJU3711
+  RPi         |  MCP3002
 --------------|--------------
 GPIO18        | CS
 GPIO10(MOSI)  | DIN
