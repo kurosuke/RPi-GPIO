@@ -6,9 +6,11 @@ import sys
 
 class NJU3711:
 
-	def __init__(self, pin_clk=10, pin_stb=9, pin_clr=11, pin_data=4):
-		# setup pins
+	def __init__(self, pin_clk=10, pin_stb=9, pin_clr=11, pin_data=4, DEBUG=0, output_pin_num=8):
+		self.DEBUG = DEBUG
+		self.output_pin_num = output_pin_num
 
+		# setup pins
 		self.pin_clk = pin_clk
 		self.pin_stb = pin_stb
 		self.pin_clr = pin_clr
@@ -32,7 +34,7 @@ class NJU3711:
 		GPIO.output(self.pin_clk, False)
 		sleep(0.001)
 
-		for no in range(8):
+		for no in range(self.output_pin_num):
 			GPIO.output(self.pin_clk, True)
 			GPIO.output(self.pin_clk, False)
 
@@ -43,12 +45,12 @@ class NJU3711:
 
 		# send data
 		GPIO.output(self.pin_stb, True)
-		for no in range(8):
+		if self.DEBUG:
+			print pin_sts
+		for no in range(self.output_pin_num):
 			# set data bit
-			if pin_sts[no] != 0:
-				GPIO.output(self.pin_data, True)
-			else:
-				GPIO.output(self.pin_data, False)
+			GPIO.output(self.pin_data, pin_sts[self.output_pin_num-no-1])
+
 			# clock
 			GPIO.output(self.pin_clk, True)
 			GPIO.output(self.pin_clk, False)

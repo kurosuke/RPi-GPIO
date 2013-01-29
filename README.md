@@ -23,6 +23,9 @@ LM75DZ
 
 <http://akizukidenshi.com/catalog/g/gI-00116/>
 
-LM358N
+## osl641501
+8x8 red LED matrix
 
-<http://akizukidenshi.com/catalog/g/gI-02324/>
+<http://akizukidenshi.com/catalog/g/gI-05163/>
+
+## 
