@@ -28,9 +28,9 @@ GND           | Vss
 
 led on from 1 to 8
 
-## exsample
+## example
 
-	% cd exsample
+	% cd example
     % sudo python alternating.py
     % sudo python binary_count_up.py
     % sudo python wave.py

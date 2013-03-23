@@ -28,8 +28,8 @@ GND           | VSS
 
 read result from sensor channel 0
 
-## exsample
+## example
 
-	% cd exsample
+	% cd example
     % sudo python lux.py
     % sudo python temperature.py

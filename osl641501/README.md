@@ -39,3 +39,6 @@ GND    | Vss
     % sudo python osl641501.py 
 
 print text to LED matrix on/off pattern 
+
+## image
+![LED lighting](/RPi-GPIO/images/osl641501_img.jpg)
